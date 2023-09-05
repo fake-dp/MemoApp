@@ -36,7 +36,7 @@ const GuideWrapper = styled.div`
   background-color: #f8f9fa;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  margin-top: 150px;
+  margin-top: 50px;
 `;
 
 const GuideHeader = styled.h1`

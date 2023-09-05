@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# 외주 작업
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Daily App Done
 
-## Available Scripts
+<br />
 
-In the project directory, you can run:
+# 과제 보고서 작성 할 때 참고 하세욤
 
-### `npm start`
+## 과제 주제
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+일상 생활 기록 웹페이지 제작
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br />
 
-### `npm test`
+- 개요 부터 레이아웃 구성은 이미지 첨부해서 정리해보세요. 배포링크 첨부했으니까 캡쳐해서 정리 하시길 바랍니다!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 개요
 
-### `npm run build`
+이번 과제 프로젝트는 나만의 일상을 기록 할 수 있는 웹 프로젝트 입니다. 오늘 하루에 대한 느낌을 사진과 함께 포스팅 할 수 있습니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<br />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 페이지 구성
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+프로젝트 페이지 요소는 페이지 소개와 사진첩(메인)이 있습니다.
+우선 소개 페이지는 해당 웹사이트에 대한 가이드를 라인을 정리하였습니다.
+사진첩(메인)페이지는 포스트를 볼 수 있는 페이지 입니다.
 
-### `npm run eject`
+<br />
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 레이아웃 구성
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+레이아웃은 헤더, 바디, 푸터로 3단계로 구성하였습니다.
+헤더에서는 왼쪽은 가이드로고 오른쪽에는 사진첩메뉴와 글쓰기 메뉴가 있습니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+사진첩 메뉴를 클릭하면 포스트를 확인 할 수있는 페이지로 이동하게 됩니다.
+글쓰기 메뉴를 클릭하면 새로운 포스트를 생성 할 수 있습니다.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<br />
 
-## Learn More
+## 주요 메인 기능
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+[ㅇ] 라우터 기능을 통해 가이드 페이지와 사진첩 페이지를 분기 하였습니다.
+[ㅇ] 사진첩 페이지에서 해당 게시글을 클릭하면 풀스크린으로 크게 감상 할 수 있습니다.
+[ㅇ] 글을 쓸 때 모달기능을 활용하여 열고 닫을수 있도록 구현 하였습니다.
+[ㅇ] 이미지와 글을 작성하여 포스팅 기능을 구현하였습니다.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+기능 크게 풀어서 4가지로 압축하였습니다. 이거 작성할때 이미지랑 같이 첨부해서 보여주세요!
 
-### Code Splitting
+## 결론
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+결론과 느낀점은 잘 지어서 작성하시길...
 
-### Analyzing the Bundle Size
+## 느낀점
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+이번 과제를 통해 웹페이지 제작의 기초적인 구조와 기능에 대해 더욱 이해할 수 있었습니다. 웹페이지를 통해 정보를 효과적으로 전달하고 사용자들의 편의를 높일 수 있는 가능성을 느꼈습니다.
