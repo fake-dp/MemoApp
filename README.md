@@ -2,6 +2,8 @@
 
 Daily App Done
 
+[배포링크](https://daily-app-seven.vercel.app/)
+
 <br />
 
 # 과제 보고서 작성 할 때 참고 하세욤
